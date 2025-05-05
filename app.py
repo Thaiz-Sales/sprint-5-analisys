@@ -4,6 +4,7 @@ import streamlit as st
 
 # data reading
 car_data = pd.read_csv('./data/vehicles.csv')
+st.title("Vehicle Mileage and Prices Analisys")
 
 # creates a histogram's button
 hist_button = st.button('Create histogram')
